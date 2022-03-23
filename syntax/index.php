@@ -97,4 +97,27 @@ class method{
 $a=new method;
 $a->met_fun();
  
+$n1=19.34;
+$n2=54.472;
+$sum=$n1+$n2;
+echo"add:".$sum;
+
+$company="javapoint";
+echo "hello $company";
+echo "</br>";
+
+$bikes=array("r","y","k");
+var_dump($bikes);
+echo $bikes[0], $bikes[1],$bikes[2];
+echo "</br>";
+
+class bike{
+    function model()
+    {
+        $model_name="Royal Enfield";
+        echo "Bike model:".$model_name;
+    }
+}
+$obj=new bike();
+$obj->model();
 ?>
