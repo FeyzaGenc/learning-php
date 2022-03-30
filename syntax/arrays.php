@@ -55,7 +55,7 @@ $salary=array("Sonoo"=>"550000","Vimal"=>"250000","Ratan"=>"200000");
 print_r(array_change_key_case($salary,CASE_LOWER)); //elemanları küçük harflerle yazar, CASE_UPPER büyük harflerle yazar
 print_r(array_chunk($salary,2))//bu fonksiyon diziyi parçalara böler
 
-$name1=array("sonoo","john","vivek","smith");    
+$name1=array("sonoo","john","vivek","smith");
 $name2=array("umesh","sonoo","kartik","smith");    
 $name3=array_intersect($name1,$name2);
 foreach($name3 as $n)
