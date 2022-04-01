@@ -1,6 +1,6 @@
 <?php
 $season=array("summer","winter","spring","autumn");
-sort($season);//dizideki elemanların tümünü yazdırır
+sort($season);//dizideki elemanları sıralayarak yazdırır
 foreach($season as $s)
 {
     echo "$s<br/>";

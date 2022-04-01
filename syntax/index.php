@@ -1,13 +1,9 @@
 <?php
-namespace Technical_Portal; 
-class jp{
-}
-echo jp::class;
 
-define("message","hello",false);
+define("message","hello",false);//bu fonksiyonda büyük küçük harfe duyarlı değil false olduğu için
 echo message,"</br>"; 
 
-const MESSAGE="Hello const by JavaTpoint PHP";  
+const MESSAGE="Hello const by JavaTpoint PHP";  //const sabit kalacak ifadeler için tanımlamada kullanılır
 echo MESSAGE;
 
 echo"<h3>Example for_LINE_</h3>";
@@ -22,18 +18,13 @@ echo dirname(__FILE__)."<br><br>";
 
 echo "<h3>Example for _FUNCTION_<h3/>";
 function test(){
-    echo 'The fun name is:'.__FUNCTION__."<br>";
+    echo 'The fun name is:'.__FUNCTION__."<br>";//fonksiyon ismi için
 }
 test();
 
-function test_fun()
-{
-    echo 'Hie';
-}
-test_fun();
-
 echo"<h3>Example for__CLASS__</h3>";
 
+//sınıf ismi yazdırmak için örnek
 class JTP
 {
     public function __construct() 
@@ -45,8 +36,8 @@ class JTP
         echo __CLASS__."<br><br>";
     }
 }
-$t=new JTP;
-$t->getClassName();
+$t=new JTP;//JTP sınıfından bir nesne oluşturduk
+$t->getClassName();//oluşturulan nesneyle sınıf içindeki fonksiyona ulaşarak sınıf ismini yazar
 
 class base 
 {
@@ -56,28 +47,28 @@ class base
     }
 }
 
-class child extends base 
+class child extends base //child sınıfı base sınıfından miras alır
 {
     public function __construct()
     {
         ;
     }
 }
-$t=new child;
-$t->test_first();
+$t=new child;//yeni nesne
+$t->test_first();//sınıf ismini yazar(child)
 
 echo "<h3>Trait</h3>";
 
 trait created_trait{
     function jtp()
     {
-        echo __TRAIT__;
+        echo __TRAIT__;//trait adını döndürür
     }
 }
 
 class Company
 {
-    use created_trait;
+    use created_trait;//miras alma gibi traitin özelliklerini kullanabiliyor
 }
 $a=new Company;
 $a->jtp();
@@ -89,35 +80,17 @@ class method{
         echo __METHOD__."<br><br>";
     }
 
-    public function met_fun()
+    public function method_function()
     {
-        echo __METHOD__;
+        echo __METHOD__;//method adını yazdırır
     }
 }
 $a=new method;
-$a->met_fun();
+$a->method_function();
  
-$n1=19.34;
-$n2=54.472;
-$sum=$n1+$n2;
-echo"add:".$sum;
-
-$company="javapoint";
-echo "hello $company";
-echo "</br>";
-
 $bikes=array("r","y","k");
-var_dump($bikes);
+var_dump($bikes);//veri tipini döndürür
 echo $bikes[0], $bikes[1],$bikes[2];
 echo "</br>";
 
-class bike{
-    function model()
-    {
-        $model_name="Royal Enfield";
-        echo "Bike model:".$model_name;
-    }
-}
-$obj=new bike();
-$obj->model();
 ?>
