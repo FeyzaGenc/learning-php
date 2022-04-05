@@ -15,7 +15,7 @@ if($conn->query($sql)==TRUE)
 {
     echo "new record created succesfully";
 }
-else
+else 
 {
     echo "error:".$sql."<br>".$conn->error;
 }

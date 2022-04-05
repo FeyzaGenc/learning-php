@@ -1,6 +1,6 @@
 
 <?php
-/*
+/* 
 NOT NULL - Her satır o sütun için bir değer içermelidir, boş değerlere izin verilmez
 DEFAULT value - Başka bir değer verilmediğinde varsayılan değeri ayarlama
 UNSIGNED - Sayı türleri için kullanılır, depolanan verileri pozitif sayılarla ve sıfırla sınırlar

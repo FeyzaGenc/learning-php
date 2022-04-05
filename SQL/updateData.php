@@ -14,5 +14,5 @@ else
 {
     echo "error updating record:".$conn->error;
 }
-$conn->close();
-?>
+$conn->close(); 
+?> 

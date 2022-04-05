@@ -2,7 +2,7 @@
 $servername="localhost";
 $username="username";
 $password="password";
-
+ 
 //bağlantı oluşturma
 $conn=new mysqli($servername,$username,$password);
 

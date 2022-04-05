@@ -18,7 +18,7 @@ $stmt->execute();
 $firstname = "Mary";
 $lastname = "Moe";
 $email = "mary@example.com";
-$stmt->execute();
+$stmt->execute(); 
 
 $firstname = "Julie";
 $lastname = "Dooley";

@@ -2,7 +2,7 @@
 $servername ="localhost";
 $username ="root";
 $password ="";
-//bağlantı oluşturma
+//bağlantı oluşturma 
 $conn=mysqli_connect($servername,$username,$password);
 //bağlantıyı kontrol etme
 if(!$conn) 

@@ -18,6 +18,6 @@ if($result->num_rows>0)//birden fazla kayıt varsa
 else
 {
     echo "0 results";
-}
+} 
 $conn->close();
 ?>

@@ -17,7 +17,7 @@
         {
             echo "bağlantı hatası<br/>";
             echo "hata açıklaması:".mysqli_connect_error();
-        }
+        } 
         else{
             echo "bağlantı kuruldu";
             mysqli_select_db($veritabanıBağlantısı,"phplearning");

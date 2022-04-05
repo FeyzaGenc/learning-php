@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="tr-TR">
-    <head>
+    <head> 
         <meta http-equiv="Content-Type" content="text/html"; charset=UTF-8>
         <meta http-equiv="Content-Language" content="tr">
         <meta charset="UTF-8">

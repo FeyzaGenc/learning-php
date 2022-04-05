@@ -5,7 +5,7 @@ $conn=new mysqli("localhost","root","","phplearning");
 if($conn->connect_error)
 {
     die("connection failed:".$conn->connect_error);
-}
+} 
 //kayıt ekleme myguest tablosuna
 $sql="INSERT INTO MyGuests(firstname,lastname,email)
 VALUES('John','Doe','john@example.com')";

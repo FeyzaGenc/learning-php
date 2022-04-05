@@ -17,7 +17,7 @@
         {
             echo "bağlantı hatası<br/>";
             echo "hata açıklaması:".$veritabanıBağlantısı->connect_error;
-        }
+        } 
         else{
             echo "bağlantı kuruldu";
         }
